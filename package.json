@@ -1,0 +1,39 @@
+{
+  "name": "fag-frontend-react-redux",
+  "version": "1.0.0",
+  "description": "Oppgaver om React og Redux",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesan/fag-frontend-react-redux"
+  },
+  "keywords": [],
+  "author": "Arild Wanvik Tvergrov <arild.wanvik@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "babel-core": "6.3.17",
+    "babel-loader": "6.2.0",
+    "babel-plugin-transform-runtime": "6.3.13",
+    "babel-polyfill": "6.9.0",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "eslint": "2.10.2",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.8.0",
+    "eslint-plugin-jsx-a11y": "1.2.2",
+    "eslint-plugin-react": "5.1.1",
+    "react": "15.0.0",
+    "react-dom": "15.0.0",
+    "react-redux": "4.0.0",
+    "redux": "3.0.0",
+    "webpack": "1.12.14",
+    "webpack-dev-server": "1.14.1"
+  }
+}

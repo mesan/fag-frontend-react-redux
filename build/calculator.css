@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Open Sans', Arial;
+    font-size: 16px;
+    height: 100%;
+}
+
+section {
+    display: block;
+}
+
+.app {
+    position: relative;
+    height: 100%;
+}
+
+.calculator {
+    height: 100%;
+    position: relative;
+}
+
+.sum-view {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: calc(100% - 14rem);
+    text-align: center;
+}
+
+.next-operand {
+    font-size: 5rem;
+    color: #343434;
+}
+
+.sum {
+    color: #888;
+    font-size: 2rem;
+    display: block;
+}
+
+.button {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    background: #f2f2f2;
+    border-width: 0 0 .5rem .5rem;
+    border-color: #fff;
+    border-style: solid;
+}
+
+.button:hover {
+    background: #eee;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.number-buttons {
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    height: 14rem;
+}
+
+.number-button {
+    width: 33.333%;
+    height: 25%;
+}
+
+.operation-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0.5rem;
+    width: calc(25% - 0.5rem);
+    height: 14rem;
+}
+
+.operation-button {
+    height: 25%;
+    width: 100%;
+}

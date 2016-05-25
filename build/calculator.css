@@ -25,13 +25,18 @@ section {
     position: relative;
 }
 
-.sum-view {
+.sum-container {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 14rem);
+    text-align: center;
+}
+
+.sum-and-next-operand {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    height: calc(100% - 14rem);
-    text-align: center;
 }
 
 .next-operand {
@@ -89,4 +94,18 @@ section {
 .operation-button {
     height: 25%;
     width: 100%;
+}
+
+@media screen and ( max-height: 600px ){
+    .sum-container {
+        height: 40%;
+    }
+
+    .number-buttons {
+        height: 60%;
+    }
+
+    .operation-buttons {
+        height: 60%;
+    }
 }

@@ -9,9 +9,11 @@ const Calculator = ({
   operationActions
   }) =>
   <section className="calculator">
-    <section className="sum-view">
-      <span className="sum">{sum}</span>
-      <span className="next-operand">{nextOperand}</span>
+    <section className="sum-container">
+      <div className="sum-and-next-operand">
+        <span className="sum">{sum}</span>
+        <span className="next-operand">{nextOperand}</span>
+      </div>
     </section>
     <section className="number-buttons">
       {numbers.map(num =>

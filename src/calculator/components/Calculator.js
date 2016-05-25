@@ -10,8 +10,8 @@ const Calculator = ({
   }) =>
   <section className="calculator">
     <section className="sum-view">
-      <span className="next-operand">{nextOperand}</span>
       <span className="sum">{sum}</span>
+      <span className="next-operand">{nextOperand}</span>
     </section>
     <section className="number-buttons">
       {numbers.map(num =>

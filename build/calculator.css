@@ -71,14 +71,14 @@ section {
     transform: translateY(1px);
 }
 
-.number-buttons {
+.digit-buttons {
     position: absolute;
     bottom: 0;
     width: 75%;
     height: 14rem;
 }
 
-.number-button {
+.digit-button {
     width: 33.333%;
     height: 25%;
 }
@@ -101,7 +101,7 @@ section {
         height: 40%;
     }
 
-    .number-buttons {
+    .digit-buttons {
         height: 60%;
     }
 

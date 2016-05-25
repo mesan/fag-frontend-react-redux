@@ -6,13 +6,13 @@ import subtractOperand from '../actionCreators/subtractOperand';
 import multiplyOperand from '../actionCreators/multiplyOperand';
 import divideOperand from '../actionCreators/divideOperand';
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+const digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 const operations = ['+', '−', '×', '÷'];
 
 const mapStateToProps = ({ sum, nextOperand }) => ({
   sum,
   nextOperand,
-  numbers,
+  digits,
   operations
 });
 

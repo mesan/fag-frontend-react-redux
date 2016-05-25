@@ -9,8 +9,8 @@ import {
 export default function nextOperandReducer(state = 0, action) {
   switch (action.type) {
     case DIGIT_TO_OPERAND_ADDED: {
-      const { number } = action.payload;
-      return parseInt(`${state}${number}`, 10);
+      const { digit } = action.payload;
+      return parseInt(`${state}${digit}`, 10);
     }
     case OPERAND_ADDED:
     case OPERAND_SUBTRACTED:

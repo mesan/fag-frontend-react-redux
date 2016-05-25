@@ -15,12 +15,12 @@ const mapStateToProps = ({ sum, nextOperand }) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  addDigitToOperand: number => () => dispatch(addDigitToOperand(number)),
+  addDigitToOperand: number => () => undefined, // use dispatch perhaps?
   operationActions: {
-    add: operand => () => dispatch(addOperand(operand)),
-    subtract: operand => () => dispatch(subtractOperand(operand)),
-    multiply: operand => () => dispatch(multiplyOperand(operand)),
-    divide: operand => () => dispatch(divideOperand(operand))
+    add: operand => () => undefined, // use dispatch perhaps?
+    subtract: operand => () => undefined, // use dispatch perhaps?
+    multiply: operand => () => undefined, // use dispatch perhaps?
+    divide: operand => () => undefined // use dispatch perhaps?
   }
 });
 
